@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    background: url(/assets/Vector.svg), linear-gradient(#0f142a, #0c1a5f) ;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left h1 {
+    font-size: 56px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.left p {
+    font-size: 20px;
+    color: #fff;
+    font-family: poppins, sans-serif;
+}
+
+.right {
+    width: 35vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left button {
+    background: #fa641e;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 157px;
+    height: 43px;
+    border: none;
+    font-size: 19px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .left h1 {
+        font-size: 40px;
+    }
+    .left p {
+        font-size: 16px;
+    }
+    .right {
+        width: 100vw;
+        height: 50vh;
+    }
+    .left button {
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+@media screen and (max-width: 480px) {
+    .left h1 {
+        font-size: 30px;
+    }
+    .left p {
+        font-size: 14px;
+    }
+    .left button {
+        width: 80px;
+        height: 25px;
+        font-size: 12px;
+    }
+}
+
+}
