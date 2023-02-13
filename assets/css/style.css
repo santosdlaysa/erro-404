@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: 'poppins', sans-serif;
-    background: url(./assets/Vector.svg), linear-gradient(#0f142a, #0c1a5f) ;
+    background: url(../assets/Vector.svg), linear-gradient(#0f142a, #0c1a5f) ;
 }
 
 .main {
