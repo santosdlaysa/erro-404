@@ -3,17 +3,20 @@
 body {
     margin: 0;
     font-family: 'poppins', sans-serif;
-    background: url(/assets/Vector.svg), linear-gradient(#0f142a, #0c1a5f) ;
+    background: url(../estrelas.svg), linear-gradient(#0f142a, #0c1a5f) ;
 }
 
 .main {
-    width: 110vw;
+    width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.left {
+    width: 40vw;
+}
 .left h1 {
     font-size: 56px;
     color: #fff;
@@ -31,7 +34,7 @@ body {
 }
 
 .right {
-    width: 40vw;
+    width: 30vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,6 +72,7 @@ body {
         font-size: 14px;
     }
 
+}
 @media screen and (max-width: 480px) {
     .left h1 {
         font-size: 30px;
@@ -81,6 +85,6 @@ body {
         height: 25px;
         font-size: 12px;
     }
-}
+
 
 }
